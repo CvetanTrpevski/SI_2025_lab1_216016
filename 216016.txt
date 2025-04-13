@@ -1,0 +1,52 @@
+Чекор бр:
+
+4. Ги користев командите:
+mkdir SI_2025_lab1_216016 // за да креирам локален директориум 
+
+cd SI_2025_lab1_216016 // влез во директориумот
+
+git init // иницијализирај го Git 
+
+
+5. Команди:
+git branch -M master // моментална гранка master
+
+git remote add origin https://github.com/CvetanTrpevski/SI_2025_lab1_216016.git // додавање на оддалечен репозиторум
+
+git push -u origin master // пуштање на промените на github
+
+
+6. Команди:
+echo "# Софтверско Инженерство Лаб1" >> README.md 
+echo "" >> README.md
+echo "Цветан Трпевски 216016" >> README.md // додај текст во фајлот README.md (ако не постои се креира)
+
+
+git add README.md // додавање на датотека во Git
+git commit -m "Initial commit" // commit со порака Initial commit
+
+
+7. Команди:
+git add SI2025Lab1Main.java // додавање на фајлот во Git
+ 
+git commit -m "Add starter code" // commit со порака "Add starter code"
+
+git add SI2025Lab1Main.java // додавање промена (додадени функционалности)
+
+git commit -m "Implemented task management methods" // commit на промената
+
+
+8. Команди:
+git push origin master // синхронизација на гранката master со оддалечениот репозиториум
+
+
+25. Команди:
+git add logs.txt // додавање на git logs во Git (ископирани git log --oneline --graph --all)
+
+git add 216016.txt // додавање на документација
+
+git commit -m "Final commit" // commit на двата фајла со порака "Final commit"
+
+
+26. Команди:
+git push origin master // синхронизација на гранката master со оддалечениот репозиториум

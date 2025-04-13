@@ -1,0 +1,3 @@
+* cc8532e (HEAD -> master, origin/master) Implemented task management methods
+* 476954f Add starter code
+* 04e60ad Initial commit
